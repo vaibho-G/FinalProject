@@ -1,0 +1,11 @@
+com\synergy\model\Chatroom.class
+com\synergy\model\User.class
+com\synergy\repository\UserRepository.class
+com\synergy\controller\UserController.class
+com\synergy\model\Hookup.class
+com\synergy\model\Log.class
+com\synergy\model\Message.class
+com\synergy\service\UserService.class
+com\synergy\config\CorsConfig.class
+com\synergy\model\Picture.class
+com\synergy\DemoApplication.class
