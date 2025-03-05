@@ -1,0 +1,57 @@
+/* src/components/ProfileCard.css */
+.profile-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .profile-info h2 {
+    color: white;
+  }
+  
+  .profile-info p {
+    color: #ccc;
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .actions .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pass-btn {
+    background-color: #f44336;
+    color: white;
+    margin: 5px;
+
+  }
+  
+  .like-btn {
+    background-color: #4CAF50;
+    color: white;
+    margin: 5px;
+
+  }
+  
+  .superlike-btn {
+    background-color: #673ab7;
+    color: white;
+  }
+  

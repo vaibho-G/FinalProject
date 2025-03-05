@@ -1,0 +1,20 @@
+.language-selector {
+    margin-left: 1rem;
+  }
+  
+  .language-selector .dropdown-toggle {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+  }
+  
+  .language-selector .dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .language-selector .dropdown-item.active {
+    background-color: #007bff;
+    color: white;
+  }

@@ -1,0 +1,64 @@
+
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    /* background-color: #2f3640; */
+    color: rgb(56, 165, 54);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar .sidebar-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .menu-item {
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar .menu-item:hover {
+    background-color: #444950;
+  }
+  
+  .sidebar .menu-item.active {
+    background-color: #1e2a33;
+  }
+  
+  .sidebar .sidebar-footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .admin-header {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .admin-header .navbar-brand {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  
+  .logout-button {
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(220, 53, 69, 0.3);
+  }
+  
+  .logout-button:active {
+    transform: translateY(0);
+  }

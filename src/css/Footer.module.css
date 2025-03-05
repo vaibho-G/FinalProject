@@ -1,0 +1,83 @@
+/* Footer Styles */
+
+/* More specific selector */
+footer.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+    background-color: #333;  /* Ensure no opacity */
+    opacity: 1; /* Ensure it's fully opaque */
+    width: 100%;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p, .footer-section ul, .footer-section a {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .language-dropdown {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #555;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+  }
+  
+  .joinft-btn {
+    background-color: #a1a1a1; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .joinft-btn:hover {
+    background-color: #333333;
+  }
+  
+  
+  
+  
+  

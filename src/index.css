@@ -1,0 +1,288 @@
+/* Global Styles */
+body {
+  background-color: #FFB6C1 !important; /* Pink background */
+  font-family: 'Poppins', sans-serif;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Landing Page */
+.landing-page {
+  min-height: 100vh;
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.container-xl {
+  max-width: 100% !important;
+  padding: 0 20px;
+}
+
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 20px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo:hover {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.sign-in-btn {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+  padding: 5px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.sign-in-btn:hover{
+  background-color: #000;
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  transform: scale(1.1); 
+}
+
+.sign-up-btn{
+  background-color: #000;
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.sign-up-btn:hover{
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+  padding: 5px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  transform: scale(1.1); 
+}
+
+/* Main Content */
+.content {
+  text-align: left;
+  padding: 2rem 20px;
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  line-height: 1.2;
+  text-shadow: 4px 4px 0px #2d2d2d, 5px 5px 0px #2d2d2d;
+  margin-bottom: 20px;
+  -webkit-text-stroke: 1.5px #2d2d2d;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #333;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+ 
+.join-btn {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  border: 2px solid #000;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.join-btn:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+  transform: scale(1.1); 
+}
+
+.app-links img{
+  height: 50px;  
+  width: auto;  
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* Terms Section */
+.terms {
+  font-size: 0.9rem;
+  margin-top: 20px;
+  color: #333;
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+.terms a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Footer */
+footer.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Language Dropdown */
+.language-dropdown {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #555;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+.joinft-btn {
+  background-color: #a1a1a1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.joinft-btn:hover {
+  background-color: #333;
+}
+
+/* Example for styling the Sign Up Button in Navbar */
+.sign-up-btn {
+  margin-left: 10px;
+}
+.sign-in-btn {
+  margin-left: 10px;
+}
+
+/* For Modal overlay styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+}
+
+.profile-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* LikedProfiles page specific styling */
+.liked-profile-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.liked-profile-card img {
+  height: 100%; /* Ensure the image fills its container vertically */
+  object-fit: cover; /* Crop the image while maintaining aspect ratio */
+}
+

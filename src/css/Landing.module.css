@@ -1,0 +1,138 @@
+
+/* Global Styles */
+
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .main-content {
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+
+  .landing-page {
+    margin: 0;  /* Remove margin-left */
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;  /* Remove padding */
+    box-sizing: border-box;
+  }
+
+  .container-xl {
+    max-width: 100% !important;
+    padding: 0 50px; /* Add horizontal padding */
+  }
+
+  .landing-header {
+    width: 100%;
+    padding: 1rem 50px; /* Add horizontal padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2 rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .sign-in-btn {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5%;
+    height: 40px;
+  }
+  
+  
+  .content {
+    text-align: left;
+    padding: 2rem 0px; /* Add horizontal padding */
+    max-width: 1400px; /* Maximum width for very large screens */
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .content h1 {
+    font-size: 3.5rem;
+    font-weight:900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-shadow: 4px 4px 0px #2d2d2d, 5px 5px 0px #2d2d2d;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1.5px #2d2d2d;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #333;
+    line-height: 1.6;
+    max-width: 600px; /* Instead of fixed width */
+    width: 100%;
+  }
+  
+  .join-btn {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: #000000;
+    border-width: 2px;
+    border-radius: 5%;
+  }
+  
+  .join-btn:hover{
+  background: transparent;
+  border: #000000;
+  border-width: 2px;
+  
+  }
+  
+  
+  .terms {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #333;
+    line-height: 1.5;
+    max-width: 500px; /* Instead of fixed width */
+    width: 100%;
+  
+  }
+  
+  .terms a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .link {
+    margin-top: 40px;
+    padding: 0 50px; /* Add horizontal padding */
+  }
+  
+  .link h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .app-links img {
+    height: 50px;
+    width: auto;
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+  
+  

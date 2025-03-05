@@ -1,0 +1,11 @@
+/* LikedProfiles page specific styling */
+.liked-profile-card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .liked-profile-card img {
+    height: 100%; /* Ensure the image fills its container vertically */
+    object-fit: cover; /* Crop the image while maintaining aspect ratio */
+  }
+  

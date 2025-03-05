@@ -1,0 +1,69 @@
+/* Header.module.css */
+
+/* General header styling */
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #191919;
+  border-bottom: 2px solid #7e7e7e;
+  position: relative;
+  width: 100%;
+}
+
+/* Styling for the Synergy logo */
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffffff;  /* Synergy brand color */
+}
+
+/* Centered navigation buttons */
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 2; /* Ensures buttons take up space in the center */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: transparent;
+
+  border-radius: 5px;
+  color: #9a9a9a;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff7962;
+  color: white;
+}
+
+/* Styling for the back button container (aligned to the right) */
+.back-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-btn {
+  padding: 8px 16px;
+  font-size: 1em;
+  background-color: transparent;
+
+  color: #dcdcdc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #ccc;
+}

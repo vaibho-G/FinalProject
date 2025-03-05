@@ -1,0 +1,227 @@
+[
+    {
+      "id": 1,
+      "name": "Rhea",
+      "age": 21,
+      "location": "Mumbai",
+      "bio": "Introverted",
+      "matchPercentage": 77,
+      "image": "profile1.jpg",
+      "gender": "Female",
+      "details": {
+        "gender": "Woman",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Short-term dating & Hookups"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Aditya",
+      "age": 22,
+      "location": "Mumbai",
+      "bio": "Talktative and funny",
+      "matchPercentage": 80,
+      "image": "profile2.jpg",
+      "gender": "Male",
+      "details": {
+        "gender": "Man",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Keshav",
+      "age": 22,
+      "location": "Kalyan",
+      "bio": "Introverted",
+      "matchPercentage": 85,
+      "image": "profile3.jpg",
+      "gender": "Non-binary",
+      "details": {
+        "gender": "Non-binary",
+        "orientation": "Queer",
+        "status": "Single",
+        "lookingFor": "Casual dating"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Meena",
+      "age": 22,
+      "location": "Mumbai",
+      "bio": "Pet lover",
+      "matchPercentage": 77,
+      "image": "profile1.jpg",
+      "gender": "Female",
+      "details": {
+        "gender": "Woman",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Short-term dating & Hookups"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Priya",
+      "age": 22,
+      "location": "Mumbai",
+      "bio": "Introverted",
+      "matchPercentage": 77,
+      "image": "profile1.jpg",
+      "gender": "Female",
+      "details": {
+        "gender": "Woman",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Short-term dating & Hookups"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sakshi",
+      "age": 22,
+      "location": "Mumbai",
+      "bio": "Introverted",
+      "matchPercentage": 77,
+      "image": "profile1.jpg",
+      "gender": "Female",
+      "details": {
+        "gender": "Woman",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Short-term dating & Hookups"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Vipul",
+      "age": 30,
+      "location": "Kalyan",
+      "bio": "Introverted",
+      "matchPercentage": 77,
+      "image": "profile1.jpg",
+      "gender": "Male",
+      "details": {
+        "gender": "Man",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Short-term dating & Hookups"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Manoj",
+      "age": 32,
+      "location": "Navi Mumbai",
+      "bio": "Love to travel and explore new places",
+      "matchPercentage": 80,
+      "image": "profile2.jpg",
+      "gender": "Male",
+      "details": {
+        "gender": "Man",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Sushil",
+      "age": 22,
+      "location": "Pune",
+      "bio": "Adventurous and Studios",
+      "matchPercentage": 80,
+      "image": "profile2.jpg",
+      "gender": "Male",
+      "details": {
+        "gender": "Man",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Nayan",
+      "age": 22,
+      "location": "Jalgav",
+      "bio": "Love to travel",
+      "matchPercentage": 80,
+      "image": "profile2.jpg",
+      "gender": "Male",
+      "details": {
+        "gender": "Man",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Sagar",
+      "age": 22,
+      "location": "Pune",
+      "bio": "Alcohol Lover",
+      "matchPercentage": 80,
+      "image": "profile2.jpg",
+      "gender": "Male",
+      "details": {
+        "gender": "Man",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Bhairavi",
+      "age": 23,
+      "location": "Jalgaon",
+      "bio": "Extroverted",
+      "matchPercentage": 88,
+      "image": "profile1.jpg",
+      "gender": "Female",
+      "details": {
+        "gender": "Woman",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Bhushan",
+      "age": 22,
+      "location": "Mumbai",
+      "bio": "Introverted and loves Nature Pet-Lover",
+      "matchPercentage": 77,
+      "image": "profile1.jpg",
+      "gender": "Male",
+      "details": {
+        "gender": "Man",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Kalyani",
+      "age": 22,
+      "location": "Jalgaon",
+      "bio": "Introverted",
+      "matchPercentage": 88,
+      "image": "profile1.jpg",
+      "gender": "Female",
+      "details": {
+        "gender": "Woman",
+        "orientation": "Straight",
+        "status": "Single",
+        "lookingFor": "Long-term dating"
+      }
+    }
+  ]
+  
